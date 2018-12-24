@@ -18,11 +18,11 @@ Bellow there are some example outputs you can get on each program.
 Inspired by [aaronpene](https://github.com/aaronpenne/generative_art). 
 
 Each time you run dots.py, it chooses one background color between green and red. 
-Then it draw dots and it's shadows with some random to create some feeling of displacement.
+Then it draw dots and it's shadows with some randomness to create a feeling of displacement.
 
-Running dots.py without arguments creates an image of width and height of 1600px, 10 dots per line/column each dot having a radius of 30. 
+Running dots.py without arguments creates an image of width and height of 1600px, 10 dots per line/column and each dot having a radius of 30. 
 
-![dots.py default example](/circles/outputs/dots_red.png | width=400)
+![dots.py default example](/circles/outputs/dots_red.png)
 
 Bellow is an example running the program with the following parameters:
 
@@ -30,7 +30,7 @@ Bellow is an example running the program with the following parameters:
 python dots.py 1600 1600 20 15
 ```
 
-![](/circles/outputs/dots_greenbig.png| width=200)
+![](/circles/outputs/dots_greenbig.png)
 
 ## Testing animated-circles example
 In animated circles I use *pycairo* to generate frames and than *mencoder* to encode the video itself.
