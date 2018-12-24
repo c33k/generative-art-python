@@ -108,4 +108,4 @@ venv.bak/
 
 #custom
 tmp/
-.DS_Store/
+.DS_Store
