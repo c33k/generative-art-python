@@ -6,12 +6,12 @@ WIDTH, HEIGHT = 1024, 512
 RGB_MAX = 255
 
 def draw():
-    surface = cairo.SVGSurface("./outputs/manycircles.svg", WIDTH, HEIGHT)
+    surface = cairo.SVGSurface("./outputs/circles.svg", WIDTH, HEIGHT)
     ctx = cairo.Context(surface)
 
     paint_board(ctx, WIDTH, HEIGHT)
 
-    paint, radius = True, 30
+    radius = 30
     
     for y in range(radius, HEIGHT - radius, radius):
         draw_line(ctx, y, radius)

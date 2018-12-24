@@ -3,8 +3,19 @@ My experiments with generative art in Python.
 
 This is my first attempt in using generative art to improve my Python skills and also to have some fun.
 
+# Examples
+
+Bellow there are some example outputs you can get on each example.
+
+## Circles
+
+### circles.py
+
+![circles.py example](/circles/outputs/circles.svg)
+
+
 ## Testing animated-circles example
-In animated circles I use *pycairo* to generate frames and than *mencoder* to generate the video itself.
+In animated circles I use *pycairo* to generate frames and than *mencoder* to encode the video itself.
 
 I got the idea of generating the video from [this tutorial from pritschet](https://www.pritschet.me/wiki/python/example-scripts-python/animations-cairo-and-numpy/). 
 
