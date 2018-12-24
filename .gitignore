@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+#ides
+.vscode/
+
 #custom
 tmp/
 .DS_Store/

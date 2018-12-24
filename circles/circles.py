@@ -7,6 +7,7 @@ RGB_MAX = 255
 
 def draw():
     surface = cairo.SVGSurface("./outputs/circles.svg", WIDTH, HEIGHT)
+    #surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
     ctx = cairo.Context(surface)
 
     paint_board(ctx, WIDTH, HEIGHT)
@@ -15,6 +16,8 @@ def draw():
     
     for y in range(radius, HEIGHT - radius, radius):
         draw_line(ctx, y, radius)
+
+    #surface.write_to_png("./outputs/circles.png")
 
 def draw_line(ctx, y, radius):
     GREEN, COLOR_STEP = random.uniform(0, 1), random.uniform(0.01, 0.1)
